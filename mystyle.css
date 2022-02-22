@@ -1,0 +1,125 @@
+
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif:400,400i,700,700i');
+html{
+   
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+   color: #fff;
+   background-color: #024952 !important
+}
+a:hover {
+   color: #f9d9a8!important;
+}
+.bg-toc {
+   background-color: #24656e;
+
+} 
+.bg-toc  a{
+   color:white;
+} 
+
+
+.bg-color{
+   color: #1d1601;
+   background-color: #f9d9a8
+}
+body {
+    position: relative;
+    font-family: 'Noto Serif',serif
+   } 
+ .alert-warning{
+   font-family: 'Noto Serif',serif;
+   font-weight: 700 
+ }  
+ 
+ .notes-card{
+      position: relative;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      min-width: 0;
+      word-wrap: break-word;
+      padding: .5rem 1rem;
+      color: #1d1601;
+      background-color: #FBF0D9
+      background-clip: border-box;
+      border: 1px solid rgba(0,0,0,.125);
+      border-radius: .25rem
+      
+  }
+  .notes-border{
+   border-color:#5F4B32;
+   
+  }
+  
+.chapter-title{
+    font-family: 'Noto Serif',serif;
+    text-align: center;
+    font-weight: 400;
+    font-size: 1em;
+    line-height: 1.2em;
+    text-transform: uppercase;
+}
+.chapter-name{
+    font-family: 'Noto Serif',serif;
+    font-size: 2em;
+    font-weight: 700;
+    line-height: 1.5em;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.gita-name{
+   font-family: 'Noto Serif',serif;
+   font-size: 2em;
+   font-weight: 700;
+   
+}
+.chapter-intro{
+   font-family: 'Noto Serif',serif;
+   text-transform: lowercase
+}
+.sp-title{
+   font-family: 'Noto Serif',serif;
+   text-align: center;
+   font-weight: 400;
+   font-size: 1em;
+   line-height: 1.2em;
+   margin-top: .5em;
+   margin-bottom: 1em;
+   
+}
+
+
+.Noto-serif-body{
+   font-family: 'Noto Serif',serif;
+}
+  
+  .scrollspy-example-2 {
+    position: relative;
+    height: 350px;
+    overflow: auto
+  }
+  .r-verse-text 
+  {
+    text-align: center;
+    margin-bottom: 1.5em;
+    font-size: 1.2em
+}
+.r-synonyms, p {
+    text-align: justify;
+    margin-bottom: 1.5em
+}
+.r-translation
+ {
+    text-align: justify;
+    margin-bottom: 1.5em;
+    font-weight: bolder
+ }
+
+ .r-notes{
+    text-align: justify;
+    margin-bottom: 1.5em;
+    font-size: 1.2em;
+    line-height: 1.8em
+ }
